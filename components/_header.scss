@@ -12,6 +12,15 @@ header {
   align-items: center;
   z-index: 1;
 
+  h1 {
+    font-size: 45px;
+    @media (max-width: 767px) {
+      font-size: 36px;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
   a {
     color: inherit;
     text-decoration: none;

@@ -3,4 +3,9 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h2,
+p {
+  color: #111111;
 }/*# sourceMappingURL=style.css.map */
