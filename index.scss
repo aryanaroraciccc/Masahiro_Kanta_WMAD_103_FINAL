@@ -85,3 +85,26 @@ main {
 
     }
 }
+
+@media only screen and (max-width: 770px) {
+    main {
+        section#menu {
+            div#container-menu {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        h1.section-title {
+            margin-top: 1.5rem;
+            margin-bottom: 3re,;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            width: 90%;
+            background-color: red;
+            color: white;
+        }
+    }
+}
