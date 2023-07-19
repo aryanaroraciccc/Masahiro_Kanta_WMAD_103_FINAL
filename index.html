@@ -21,6 +21,30 @@
         </nav>
     </header>
 
+    <main>
+        <section id="face">
+            <div id="container-face">
+                <picture>
+                    <source id="background-source" media="(max-width:770px)" srcset="Images/italian-sausage-vertical.jpg">
+                    <img id="background-image" src="Images/italian-sausage-horizontal.jpg" alt="Image of a slice of Italian Sausage Pizza">
+                </picture>
+                
+                <p id="image-overlay-title"><b>ITALIAN SAUSAGE</b></p>
+
+                <div id="indicator">
+                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="0">●</div>
+                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="1">・</div>
+                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="2">・</div>
+                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="3">・</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
