@@ -1,0 +1,110 @@
+@import "../style";
+
+@import "../components/header";
+$font-size-header: 80px;
+$font-size-title: 45px;
+$font-size-main: 17px;
+
+$font-weight-title: 700;
+
+$primary-red: #f80605;
+$primary-black: #111111;
+
+// .header {
+//   h1 {
+//     color: $primary-red;
+//   }
+// }
+
+h1 {
+  color: $primary-red;
+}
+
+main {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.page-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: $primary-black;
+    font-size: $font-size-title;
+    font-weight: $font-weight-title;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+  }
+}
+
+.page-content-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+// Menu List Container styles for mobile
+.menu-list-container-mobile {
+  /* Add styles for the menu list container on mobile */
+  @media (min-width: 768px) {
+    display: none; // Hide when screen width > 767px
+  }
+}
+
+// Menu Container styles for mobile
+.menu-container-mobile {
+  /* Add styles for each menu container on mobile */
+}
+
+// Menu Text styles
+.menu-text {
+  /* Add styles for the menu text container */
+}
+
+.menu-text .menu-name {
+  /* Add styles for the menu name text */
+}
+
+.menu-text .price-and-camera {
+  /* Add styles for the price and camera icon container */
+}
+
+.menu-text .price {
+  /* Add styles for the menu price text */
+}
+
+.menu-text .camera-icon {
+  /* Add styles for the camera icon container */
+}
+
+.menu-text .slash-icon {
+  /* Add styles for the slash icon container */
+}
+
+// Menu Image styles
+.menu-img {
+  /* Add styles for the menu image container */
+}
+
+.menu-img img {
+  /* Add styles for the menu image */
+}
+
+// Menu List Container styles for laptops
+.menu-list-container {
+  /* Add styles for the menu list container on laptops */
+  @media (max-width: 767px) {
+    display: none; // Hide when screen width < 768px
+  }
+}
+
+// Menu Container styles for laptops
+.menu-container {
+  /* Add styles for each menu container on laptops */
+}
