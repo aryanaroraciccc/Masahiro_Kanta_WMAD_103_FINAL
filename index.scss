@@ -35,6 +35,11 @@ main {
 
     section#menu {
         h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        h2 {
             text-align: center;
         }
 
@@ -64,7 +69,7 @@ main {
 
     section#location {
         h1 {
-            font-size: 50px;
+            font-size: 45px;
             text-align: center;
         }
 
@@ -78,6 +83,10 @@ main {
 
             p.branch-name {
                 color: red;
+            }
+
+            div {
+                margin-bottom: 3rem;
             }
 
         }

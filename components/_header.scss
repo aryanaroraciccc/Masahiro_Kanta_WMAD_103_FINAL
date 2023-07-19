@@ -54,6 +54,7 @@ header {
 @media only screen and (max-width: 770px) {
     header {
         justify-content: center;
+        position: absolute;
 
         nav {
             display: none;
