@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-$font-size-header: 80px;
-$font-size-title: 45px;
-$font-size-main: 17px;
-$font-weight-title: 700;
-
-$primary-red: #f80605;
-$primary-black: #111111;
-
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
@@ -15,9 +7,9 @@ body {
 
 h2,
 p {
-  color: $primary-black;
+  color: #111111;
 }
 
 .invisible {
   display: none;
-}
+}/*# sourceMappingURL=style.css.map */
