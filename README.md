@@ -1,7 +1,0 @@
-Why did you choose that project?(PDF, Slides or ReadMe)
-How did you divide the work between team members?(PDF, Slides or ReadMe)
-Show us your wireframes.(Share Screen)
-Show us the structure of your code.(Share Screen)
-Show the project(Share Screen)
-What you learned and what you struggled the most(answer individually)?(PDF, Slides or ReadMe)
-Future improvements(PDF, Slides or ReadMe)
