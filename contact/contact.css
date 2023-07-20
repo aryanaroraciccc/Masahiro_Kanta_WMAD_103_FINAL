@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
@@ -13,6 +14,37 @@ p {
 
 .invisible {
   display: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+p {
+  color: #111111;
+}
+
+.invisible {
+  display: none;
+}
+
+header h1 {
+  color: #f80605;
+}
+
+main section {
+  margin-top: 10rem;
+}
+main section h2 {
+  color: #111111;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
 }
 
 header {
@@ -194,40 +226,29 @@ p {
     transform: translateY(0);
   }
 }
-header h1 {
-  color: #f80605;
-}
-
-main section#contact-form {
-  margin-top: 10rem;
-}
-main section#contact-form h2 {
-  text-align: center;
-  font-size: 45px;
-}
-main section#contact-form form {
+form {
   margin: auto;
   width: 65%;
 }
-main section#contact-form form fieldset {
+form fieldset {
   border: none;
   width: 100%;
 }
-main section#contact-form form fieldset legend {
+form fieldset legend {
   font-size: 20px;
   margin-bottom: 2rem;
 }
-main section#contact-form form fieldset input {
+form fieldset input {
   width: 100%;
   outline: none;
   font-size: 20px;
 }
-main section#contact-form form fieldset textarea {
+form fieldset textarea {
   width: 100%;
   outline: none;
   font-size: 20px;
 }
-main section#contact-form form input[type=button] {
+form input[type=button] {
   margin-top: 1.5rem;
   margin-left: 1rem;
   height: 4em;
@@ -236,27 +257,27 @@ main section#contact-form form input[type=button] {
   border: none;
   color: white;
 }
-main section#contact-form form input[type=button]:hover {
+form input[type=button]:hover {
   cursor: pointer;
 }
-main section#contact-form form .text-input-field {
+form .text-input-field {
   border: none;
   border-bottom: 2px solid #111111;
 }
-main section#contact-form form fieldset#name-email-field {
+form fieldset#name-email-field {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
 }
-main section#contact-form form fieldset#name-email-field div {
+form fieldset#name-email-field div {
   width: 100%;
 }
 
 @media only screen and (max-width: 770px) {
-  main section#contact-form form {
+  form {
     width: 90%;
   }
-  main section#contact-form form fieldset#name-email-field {
+  form fieldset#name-email-field {
     flex-direction: column;
     gap: 2.5rem;
   }

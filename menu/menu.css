@@ -56,7 +56,7 @@ header a.hover-underline-animation::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: balck;
+  background-color: black;
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
@@ -95,31 +95,20 @@ p {
   display: none;
 }
 
-main {
-  position: absolute;
-  top: 10%;
-  width: 100%;
+header h1 {
+  color: #f80605;
 }
 
-.page-title-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main section {
+  margin-top: 10rem;
 }
-.page-title-container h2 {
+main section h2 {
   color: #111111;
   font-size: 45px;
   font-weight: 700;
   text-align: center;
   font-style: normal;
   line-height: normal;
-}
-
-.page-content-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
 }
 
 body {
@@ -207,13 +196,8 @@ p {
     transform: translateY(0);
   }
 }
-h1 {
-  color: #f80605;
-}
-
 .menu-list-container-mobile {
   width: 100%;
-  /* Add styles for the menu list container on mobile */
 }
 @media (min-width: 768px) {
   .menu-list-container-mobile {
@@ -224,7 +208,24 @@ h1 {
 .menu-container-mobile {
   width: 100%;
   padding-bottom: 12px;
-  /* Add styles for each menu container on mobile */
+}
+
+.menu-list-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .menu-list-container {
+    display: none;
+  }
+}
+
+.menu-container {
+  width: 45%;
+  margin: 12px;
 }
 
 .menu-text-and-icon {
@@ -236,7 +237,6 @@ h1 {
 }
 
 .menu-text {
-  /* Add styles for the menu text container */
   width: 100%;
   text-align: center;
   font-weight: 900;
@@ -256,24 +256,6 @@ h1 {
 
 .menu-price {
   font-size: 15px;
-}
-
-.menu-list-container {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 767px) {
-  .menu-list-container {
-    display: none;
-  }
-}
-
-.menu-container {
-  width: 45%;
-  margin: 12px;
 }
 
 .menu-img {

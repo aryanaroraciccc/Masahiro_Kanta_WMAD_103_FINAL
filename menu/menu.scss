@@ -3,15 +3,9 @@
 @import "../components/sectionPageLayout";
 @import "../components/floatingHamburgerIcon";
 
-// modify the h1 in header
-h1 {
-  color: $primary-red;
-}
-
 // Menu List Container styles for mobile
 .menu-list-container-mobile {
   width: 100%;
-  /* Add styles for the menu list container on mobile */
   @media (min-width: 768px) {
     display: none; // Hide when screen width > 767px
   }
@@ -21,44 +15,8 @@ h1 {
 .menu-container-mobile {
   width: 100%;
   padding-bottom: 12px;
-  /* Add styles for each menu container on mobile */
-}
-.menu-text-and-icon {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px #111111 solid;
-}
-// Menu Text styles
-.menu-text {
-  /* Add styles for the menu text container */
-  width: 100%;
-  text-align: center;
-  font-weight: 900;
-  @media (max-width: 767px) {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-  }
 }
 
-.menu-name {
-  font-size: 20px;
-}
-
-.menu-price {
-  font-size: 15px;
-}
-
-.camera-toggle-btn {
-}
-.camera-icon {
-}
-
-.camera-with-slash-icon {
-}
 // Menu List Container styles for laptops
 .menu-list-container {
   display: flex;
@@ -76,6 +34,34 @@ h1 {
 .menu-container {
   width: 45%;
   margin: 12px;
+}
+
+.menu-text-and-icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px #111111 solid;
+}
+// Menu Text styles
+.menu-text {
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  @media (max-width: 767px) {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu-name {
+  font-size: 20px;
+}
+
+.menu-price {
+  font-size: 15px;
 }
 
 // Menu Image styles
