@@ -10,6 +10,7 @@ h1 {
 
 // Menu List Container styles for mobile
 .menu-list-container-mobile {
+  width: 100%;
   /* Add styles for the menu list container on mobile */
   @media (min-width: 768px) {
     display: none; // Hide when screen width > 767px
@@ -18,13 +19,16 @@ h1 {
 
 // Menu Container styles for mobile
 .menu-container-mobile {
+  width: 100%;
+  padding-bottom: 12px;
   /* Add styles for each menu container on mobile */
 }
 .menu-text-and-icon {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  border: 1px #111111 solid;
 }
 // Menu Text styles
 .menu-text {
@@ -35,7 +39,7 @@ h1 {
   @media (max-width: 767px) {
     display: flex;
     width: 80%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 }
@@ -45,19 +49,15 @@ h1 {
 }
 
 .menu-price {
-  /* Add styles for the menu price text */
   font-size: 15px;
 }
 
 .camera-toggle-btn {
 }
 .camera-icon {
-  display: block;
 }
 
 .camera-with-slash-icon {
-  display: none;
-  /* Add styles for the slash icon container */
 }
 // Menu List Container styles for laptops
 .menu-list-container {
@@ -86,4 +86,5 @@ h1 {
 
 .menu-img img {
   width: 90%;
+  height: 100%;
 }
