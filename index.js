@@ -4,14 +4,14 @@ const indicatorCircle = "●";
 const indicatorDot = "・";
 
 const imageSourcesHorizontal = [
-    "Images/homemade-meatball-horizontal.jpg",
+    "Images/original-horizontal.jpg",
     "Images/italian-sausage-horizontal.jpg",
     "Images/homemade-meatball-horizontal.jpg",
     "Images/hawaiian-horizontal.jpg",
 ];
 
 const imageSourcesVertical = [
-    "Images/homemade-meatball-vertical.jpg",
+    "Images/original-vertical.jpg",
     "Images/italian-sausage-vertical.jpg",
     "Images/homemade-meatball-vertical.jpg",
     "Images/hawaiian-vertical.jpg",
@@ -25,10 +25,10 @@ const paragraphs = [
 ];
 
 function changeImageByInterval() {
-    let index = getIndex();
-    changeImage(index);
-    changeIndicator(index);
+    let index = count % (imageSourcesHorizontal.length - 1);
     count += 1;
+    changeIndicator(index);
+    changeImage(index);
 };
 
 let interval = setInterval(changeImageByInterval, intervalTime);
@@ -40,16 +40,14 @@ function changeImageByIndicator(event) {
     if(element.innerText === indicatorCircle) {
         return;
     } else {
-        changeImage(index);
-        changeIndicator(index);
         count = index + 1;
+        changeIndicator(index);
+        changeImage(index);
     }
 
     clearInterval(interval);
     interval = setInterval(changeImageByInterval, intervalTime);
 }
-
-const getIndex = () => count % 4;
 
 function changeImage(index) {
     let imgElement = document.getElementById("background-image");
@@ -59,7 +57,12 @@ function changeImage(index) {
     let imgSourceV = imageSourcesVertical[index];
     imgElement.setAttribute("src", imgSourceH);
     srcElement.setAttribute("srcset", imgSourceV);
-    pElement.innerText = paragraphs[index];
+    pElement.innerHTML = `<b>${paragraphs[index]}</b>`;
+    imgElement.classList.remove("zoom-out-animation");
+    // Schedule the animation on the next frame to ensure smooth animations.
+    requestAnimationFrame(() => {
+        imgElement.classList.add("zoom-out-animation");
+      });
 }
 
 function changeIndicator(index) {

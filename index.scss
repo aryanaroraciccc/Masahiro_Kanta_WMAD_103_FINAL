@@ -8,6 +8,7 @@ main {
             position: relative;
             text-align: center;
             z-index: 0;
+            overflow: hidden;
 
             p {
                 color: white;
@@ -88,10 +89,7 @@ main {
             div {
                 margin-bottom: 3rem;
             }
-
         }
-
-
     }
 }
 
@@ -115,5 +113,21 @@ main {
             background-color: red;
             color: white;
         }
+    }
+}
+
+.zoom-out-animation {
+    animation-name: zoom-out;
+    animation-duration: 1.5s;
+}
+
+@keyframes zoom-out {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.0)
     }
 }
