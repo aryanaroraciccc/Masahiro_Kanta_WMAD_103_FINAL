@@ -4,9 +4,6 @@ main {
   position: absolute;
   top: 10%;
   width: 100%;
-  @media (max-width: 767px) {
-    top: 15%; // Hide when screen width < 768px
-  }
 }
 
 .page-title-container {

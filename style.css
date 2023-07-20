@@ -8,4 +8,8 @@ body {
 h2,
 p {
   color: #111111;
+}
+
+.invisible {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

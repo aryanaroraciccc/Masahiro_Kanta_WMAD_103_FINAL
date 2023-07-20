@@ -1,0 +1,15 @@
+.floating-hamburger-icon {
+  position: fixed;
+  bottom: 30px; /* Adjust this value to change the vertical position */
+  right: 30px; /* Adjust this value to change the horizontal position */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}/*# sourceMappingURL=floatingHamburgerIcon.css.map */

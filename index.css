@@ -10,6 +10,10 @@ p {
   color: #111111;
 }
 
+.invisible {
+  display: none;
+}
+
 header {
   font-size: 20px;
   color: inherit;
