@@ -197,6 +197,36 @@ p {
     transform: translateY(0);
   }
 }
+footer {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+footer div#social-icon-container {
+  display: flex;
+  gap: 1rem;
+}
+footer div#social-icon-container div.icon-circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  position: relative;
+}
+footer div#social-icon-container div.icon-circle img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 23%;
+  left: 23%;
+}
+footer p {
+  text-align: center;
+}
+
 .menu-list-container-mobile {
   width: 100%;
 }
