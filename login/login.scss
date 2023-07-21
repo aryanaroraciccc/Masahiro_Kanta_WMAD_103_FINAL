@@ -1,0 +1,73 @@
+@import "../style.scss";
+@import "../components/sectionPageLayout";
+@import "../components/header";
+@import "../components/footer";
+@import "../components/floatingHamburgerIcon";
+
+form {
+  margin: auto;
+  width: 65%;
+
+  fieldset {
+    border: none;
+    width: 100%;
+
+    legend {
+      font-size: 20px;
+      margin-bottom: 2rem;
+    }
+
+    input {
+      width: 100%;
+      outline: none;
+      font-size: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      outline: none;
+      font-size: 20px;
+    }
+  }
+
+  input[type="button"] {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    height: 4em;
+    width: 100%;
+    background-color: $primary-red;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .text-input-field {
+    border: none;
+    border-bottom: 2px solid $primary-black;
+  }
+
+  fieldset#email-field {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    div {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  form {
+    width: 90%;
+
+    fieldset#name-email-field {
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  }
+}

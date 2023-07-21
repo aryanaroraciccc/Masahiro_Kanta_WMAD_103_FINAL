@@ -33,6 +33,7 @@ p {
 
 header h1 {
   color: #f80605;
+  font-weight: 900;
 }
 
 main section {
@@ -249,13 +250,15 @@ form fieldset textarea {
   font-size: 20px;
 }
 form input[type=button] {
-  margin-top: 1.5rem;
+  margin-top: 4rem;
   margin-left: 1rem;
   height: 4em;
-  width: 6em;
+  width: 100%;
   background-color: #f80605;
   border: none;
-  color: white;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
 }
 form input[type=button]:hover {
   cursor: pointer;

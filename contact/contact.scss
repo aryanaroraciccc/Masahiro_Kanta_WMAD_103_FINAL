@@ -31,14 +31,15 @@ form {
   }
 
   input[type="button"] {
-    margin-top: 1.5rem;
+    margin-top: 4rem;
     margin-left: 1rem;
     height: 4em;
-    width: 6em;
+    width: 100%;
     background-color: $primary-red;
     border: none;
-    color: white;
-
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
     &:hover {
       cursor: pointer;
     }
