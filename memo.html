@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact/contact.css">
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="index.html"><b>PIZZA SLICE</b></a>
+      </h1>
+
+      <nav>
+        <a class="hover-underline-animation" href="index.html" id="nav-home"
+          >HOME</a
+        >
+        <a class="hover-underline-animation" href="menu.html" id="nav-menu"
+          >MENU</a
+        >
+        <a
+          class="hover-underline-animation"
+          href="contact.html"
+          id="nav-contact"
+          >CONTACT</a
+        >
+        <a href="login.html" id="nav-login">
+          <img src="Images/login-white.svg" alt="Icon of a Person" />
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact-form">
+        <h2>Contact us</h2>
+
+        <form action="">
+          <fieldset id="name-email-field">
+            <div id="name">
+              <legend>Name</legend>
+              <label for="name"></label>
+              <input class="text-input-field" type="text" name="name" id="name">
+            </div>
+            <div id="email-field">
+              <legend>Email</legend>
+              <label for="email"></label>
+              <input class="text-input-field" type="email" name="email" id="email">
+            </div>
+          </fieldset>
+  
+          <fieldset id="message-field">
+            <legend>Message</legend>
+            <label for="message"></label>
+            <textarea class="text-input-field" name="message" id="message" rows="4"></textarea>
+          </fieldset>
+  
+          <input type="button" value="Send">
+        </form>
+
+      </section>
+
+      <div class="floating-hamburger-icon">
+        <div id="floating-hamburger-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="70"
+            height="70"
+            viewBox="0 0 70 70"
+            fill="none"
+          >
+            <rect width="70" height="70" fill="#F80605" />
+            <path
+              d="M21.0714 25.5102H48.9286C49.5203 25.5102 50 24.962 50 24.2857V21.2245C50 20.5482 49.5203 20 48.9286 20H21.0714C20.4797 20 20 20.5482 20 21.2245V24.2857C20 24.962 20.4797 25.5102 21.0714 25.5102ZM21.0714 37.7551H48.9286C49.5203 37.7551 50 37.2069 50 36.5306V33.4694C50 32.7931 49.5203 32.2449 48.9286 32.2449H21.0714C20.4797 32.2449 20 32.7931 20 33.4694V36.5306C20 37.2069 20.4797 37.7551 21.0714 37.7551ZM21.0714 50H48.9286C49.5203 50 50 49.4518 50 48.7755V45.7143C50 45.038 49.5203 44.4898 48.9286 44.4898H21.0714C20.4797 44.4898 20 45.038 20 45.7143V48.7755C20 49.4518 20.4797 50 21.0714 50Z"
+              fill="white"
+            />
+            <rect
+              x="0.5"
+              y="0.5"
+              width="69"
+              height="69"
+              stroke="#111111"
+              stroke-opacity="0.0666667"
+            />
+          </svg>
+        </div>
+
+        <div class="invisible" id="floating-navigation-menu">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li></li>
+          </ul>
+          <div class="floating-menu-close-icon" id="floating-menu-close-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M18 6.41L16.59 5 12 9.59 7.41 5 6 6.41 10.59 11 6 15.59 7.41 17 12 12.41 16.59 17 18 15.59 13.41 11 18 6.41z"
+              />
+            </svg>
+          </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+      <div id="social-icon-container">
+          <div class="icon-circle">
+              <a href="https://www.instagram.com/pizza_slice_tokyo/?hl=ja"
+                  target="_blank">
+                  <img src="Images/instagram.svg" alt="Instagram Icon">
+              </a>
+          </div>
+          <div class="icon-circle">
+              <a href="https://www.facebook.com/abcpizzaslice?locale=ja_JP"
+                  target="_blank">
+                  <img src="Images/facebook.svg" alt="Facebook Icon">
+              </a>
+          </div>
+      </div>
+
+      <div id="copyright-container">
+          <p id="privacy-policy">PRIVACY POLICY</p>
+          <p id="copyright">© 2023 PIZZZA SLICE</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+
+@import "../style.scss";
+@import "../components/header";
+@import "../components/footer";
+@import "../components/floatingHamburgerIcon";
+
+header {
+    h1 {
+        color: $primary-red;
+    }
+}
+
+main {
+    section#contact-form {
+        margin-top: 10rem;
+
+        h2 {
+            text-align: center;
+            font-size: $font-size-title;
+        }
+
+        form {
+            margin: auto;
+            width: 65%;
+
+            fieldset {
+                border: none;
+                width: 100%;
+
+                legend {
+                    font-size: 20px;
+                    margin-bottom: 2rem;
+                }
+
+                input {
+                    width: 100%;
+                    outline: none;
+                    font-size: 20px;
+                }
+    
+                textarea {
+                    width: 100%;
+                    outline: none;
+                    font-size: 20px;
+                }
+            }
+
+            input[type=button] {
+                margin-top: 1.5rem;
+                margin-left: 1rem;
+                height: 4em;
+                width: 6em;
+                background-color: $primary-red;
+                border: none;
+                color: white;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .text-input-field {
+                border: none;
+                border-bottom: 2px solid $primary-black;
+            }
+
+            fieldset#name-email-field {
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 2rem;
+
+                div {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    main {
+        section#contact-form {
+    
+            form {
+                width: 90%;
+    
+                fieldset#name-email-field {
+                    flex-direction: column;
+                    gap: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+# Welcome to PIZZA SLICE Project
+
+## Why did you choose that project?
+
+We choose https://pizzaslice.jp/ web site for our analytical project.
+We liked the simple taste of design of this site.
+However, there are several things we don't like and we thought there can be added several new features.  
+We added these features
+
+1. fixed header
+2. floating menu icon
+3. hiding menu images for mobile version.
+
+## How did you divide the work between team members?
+
+We don't want to conflict with each other's task so primarily separate tasks between each page. We divided work as follows.
+
+| P.I.C.   | PAGE    |
+| -------- | ------- |
+| Masahiro | index   |
+| Kanta    | menu    |
+| Masahiro | contact |
+| Kanta    | login   |
+
+Masahiro handles index and contact pages. He thought overlaying paragraph onto an image is charenging task and wanted to learn how to do it. And alse charged with adding zoom-out animation for images.
+
+Kanta handles menu and login pages. He tried to implement floating hamburger menu with pure html, css and javascript. He also created mobile version of menu page with taste of cacutus club cafe web site, which is hiding menu images when seen from a mobile.
+
+As for common parts, such like header or footer, we separate scss files so that we could use it for all the pages.  
+(See components folder!!)
+
+## What you learned and what you struggled the most
+
+Kanta
+
+Masahiro
+
+1. Automatically changing background images and restart animation with javascript.
+2. Position and z-index property.
+3. Referencing files when separate them, sometimes it occurs errors.
+
+## Future improvements
+
+Kanta
+
+Masahiro
+
+1. Fix bugs especially for automatic changing image feature.(Sometime it doesn't work!?)
+2. Changing background color of header after scrolled
+3. Implement backend for data collection.
