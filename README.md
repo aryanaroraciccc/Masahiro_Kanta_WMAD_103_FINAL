@@ -1,6 +1,7 @@
 # Welcome to PIZZA SLICE Project
 
-wireframe : https://www.figma.com/file/m4Gu7AO1QlrAvrFpxnBIda/FINAL-PROJECT?type=design&node-id=21%3A63&mode=design&t=r4sp0DcdnUINpMSf-1
+##Wireframe
+https://www.figma.com/file/m4Gu7AO1QlrAvrFpxnBIda/FINAL-PROJECT?type=design&node-id=21%3A63&mode=design&t=r4sp0DcdnUINpMSf-1
 
 ## Why did you choose that project?
 
