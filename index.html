@@ -33,151 +33,207 @@
     </header>
 
     <main>
-        <section id="face">
-            <div id="container-face">
-                <picture>
-                    <source id="background-source" media="(max-width:770px)" srcset="Images/italian-sausage-vertical.jpg">
-                    <img id="background-image" class="zoom-out-animation" src="Images/italian-sausage-horizontal.jpg" alt="Image of a slice of pizza">
-                </picture>
-                
-                <p id="image-overlay-title"><b>ITALIAN SAUSAGE</b></p>
+      <section id="face">
+        <div id="container-face">
+          <picture>
+            <source
+              id="background-source"
+              media="(max-width:770px)"
+              srcset="Images/italian-sausage-vertical.jpg"
+            />
+            <img
+              id="background-image"
+              class="zoom-out-animation"
+              src="Images/italian-sausage-horizontal.jpg"
+              alt="Image of a slice of pizza"
+            />
+          </picture>
 
-                <div id="indicator">
-                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="0">●</div>
-                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="1">・</div>
-                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="2">・</div>
-                    <div class="indicators" onclick="changeImageByIndicator(event)" data-value="3">・</div>
-                </div>
+          <p id="image-overlay-title"><b>ITALIAN SAUSAGE</b></p>
+
+          <div id="indicator">
+            <div
+              class="indicators"
+              onclick="changeImageByIndicator(event)"
+              data-value="0"
+            >
+              ●
             </div>
-        </section>
-
-        <section id="menu">
-            <h1 class="section-title">MENU</h1>
-
-            <div id="container-menu">
-                <div id="menu1">
-                    <img class="menu-img" src="Images/pepperoni-horizontal.jpg" alt="Image of a slice of Peperoni Pizza">
-                    <p class="menu-name">PEPERONI</p>
-                    <p class="menu-price">5 CAD</p>
-                </div>
-    
-                <div id="menu2">
-                    <img class="menu-img" src="Images/chorizo-and-jalapeno-horizontal.jpg" alt="Image of a slice of Chorizo and Japapeno Pizza">
-                    <p class="menu-name">CHORIZO AND JALAPENO</p>
-                    <p class="menu-price">6 CAD</p>
-                </div>
+            <div
+              class="indicators"
+              onclick="changeImageByIndicator(event)"
+              data-value="1"
+            >
+              ・
             </div>
-
-            <h2>AND MORE...</h2>
-        </section>
-
-        <section id="location">
-            <h1 class="section-title">ALL LOCATIONS</h1>
-
-            <div id="container-location">
-                <div id="branch1">
-                    <p class="branch-name">PIZZA SLICE</p>
-                    <p class="branck-address">1F, Daikanyama Joshin Bld., 1-3 Sarugaku-tyo, Shibuya, Tokyo</p>
-                    <a class="branch-map-link"
-                        href="https://www.google.com/maps/place/Pizza+Slice/@35.6535237,139.7051421,15z/data=!4m2!3m1!1s0x0:0x6774f31fd3f468c1?sa=X&ved=2ahUKEwjqi-jiho3pAhWlKqYKHWlQA4cQ_BIwE3oECB0QCA"
-                        target="_blank">
-                        "google map"
-                    </a>
-                </div>
-    
-                <div id="branch2">
-                    <p class="branch-name">PIZZA SLICE2</p>
-                    <p class="branck-address">B1F, 3-14-17 Minami Aoyama, Minato, Tokyo</p>
-                    <a class="branch-map-link"
-                        href="https://www.google.com/maps/place/PIZZA+SLICE+2/@35.6647728,139.7146392,15z/data=!4m2!3m1!1s0x0:0xfb7d82cd7d6df44a?sa=X&ved=2ahUKEwi2xpS6h43pAhVMIqYKHYt4AR8Q_BIwCnoECBsQCA"
-                        target="_blank">
-                        "google map"
-                    </a>
-                </div>
-    
-                <div id="branch3">
-                    <p class="branch-name">PIZZA SLICE COMMISSARY</p>
-                    <p class="branck-address">1F, Life Science Bld2., 3-11-5 Nihonbashihonmachi, Chuo, Tokyo</p>
-                    <a class="branch-map-link"
-                        href="https://www.google.com/maps/place/PIZZA+SLICE+COMMISSARY/@35.689077,139.7773335,15z/data=!4m2!3m1!1s0x0:0xedb0d435cf14ed6?sa=X&ved=2ahUKEwjMhpXdpp7xAhX_w4sBHW8MABAQ_BIwEnoECEgQBQ"
-                        target="_blank">
-                        "google map"
-                    </a>
-                </div>
+            <div
+              class="indicators"
+              onclick="changeImageByIndicator(event)"
+              data-value="2"
+            >
+              ・
             </div>
-        </section>
-
-        <div class="floating-hamburger-icon">
-            <div id="floating-hamburger-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="70"
-                height="70"
-                viewBox="0 0 70 70"
-                fill="none"
-              >
-                <rect width="70" height="70" fill="#F80605" />
-                <path
-                  d="M21.0714 25.5102H48.9286C49.5203 25.5102 50 24.962 50 24.2857V21.2245C50 20.5482 49.5203 20 48.9286 20H21.0714C20.4797 20 20 20.5482 20 21.2245V24.2857C20 24.962 20.4797 25.5102 21.0714 25.5102ZM21.0714 37.7551H48.9286C49.5203 37.7551 50 37.2069 50 36.5306V33.4694C50 32.7931 49.5203 32.2449 48.9286 32.2449H21.0714C20.4797 32.2449 20 32.7931 20 33.4694V36.5306C20 37.2069 20.4797 37.7551 21.0714 37.7551ZM21.0714 50H48.9286C49.5203 50 50 49.4518 50 48.7755V45.7143C50 45.038 49.5203 44.4898 48.9286 44.4898H21.0714C20.4797 44.4898 20 45.038 20 45.7143V48.7755C20 49.4518 20.4797 50 21.0714 50Z"
-                  fill="white"
-                />
-                <rect
-                  x="0.5"
-                  y="0.5"
-                  width="69"
-                  height="69"
-                  stroke="#111111"
-                  stroke-opacity="0.0666667"
-                />
-              </svg>
-            </div>
-    
-            <div class="invisible" id="floating-navigation-menu">
-              <ul>
-                <li><a href="/">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="login.html">LOGIN</a></li>
-                <li></li>
-              </ul>
-              <div class="floating-menu-close-icon" id="floating-menu-close-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M0 0h24v24H0z" fill="none" />
-                  <path
-                    d="M18 6.41L16.59 5 12 9.59 7.41 5 6 6.41 10.59 11 6 15.59 7.41 17 12 12.41 16.59 17 18 15.59 13.41 11 18 6.41z"
-                  />
-                </svg>
-              </div>
+            <div
+              class="indicators"
+              onclick="changeImageByIndicator(event)"
+              data-value="3"
+            >
+              ・
             </div>
           </div>
+        </div>
+      </section>
 
+      <section id="menu">
+        <h1 class="section-title">MENU</h1>
+
+        <div id="container-menu">
+          <div id="menu1">
+            <img
+              class="menu-img"
+              src="Images/pepperoni-horizontal.jpg"
+              alt="Image of a slice of Peperoni Pizza"
+            />
+            <p class="menu-name">PEPERONI</p>
+            <p class="menu-price">5 CAD</p>
+          </div>
+
+          <div id="menu2">
+            <img
+              class="menu-img"
+              src="Images/chorizo-and-jalapeno-horizontal.jpg"
+              alt="Image of a slice of Chorizo and Japapeno Pizza"
+            />
+            <p class="menu-name">CHORIZO AND JALAPENO</p>
+            <p class="menu-price">6 CAD</p>
+          </div>
+        </div>
+
+        <h2>AND MORE...</h2>
+      </section>
+
+      <section id="location">
+        <h1 class="section-title">ALL LOCATIONS</h1>
+
+        <div id="container-location">
+          <div id="branch1">
+            <p class="branch-name">PIZZA SLICE</p>
+            <p class="branck-address">
+              1F, Daikanyama Joshin Bld., 1-3 Sarugaku-tyo, Shibuya, Tokyo
+            </p>
+            <a
+              class="branch-map-link"
+              href="https://www.google.com/maps/place/Pizza+Slice/@35.6535237,139.7051421,15z/data=!4m2!3m1!1s0x0:0x6774f31fd3f468c1?sa=X&ved=2ahUKEwjqi-jiho3pAhWlKqYKHWlQA4cQ_BIwE3oECB0QCA"
+              target="_blank"
+            >
+              "google map"
+            </a>
+          </div>
+
+          <div id="branch2">
+            <p class="branch-name">PIZZA SLICE2</p>
+            <p class="branck-address">
+              B1F, 3-14-17 Minami Aoyama, Minato, Tokyo
+            </p>
+            <a
+              class="branch-map-link"
+              href="https://www.google.com/maps/place/PIZZA+SLICE+2/@35.6647728,139.7146392,15z/data=!4m2!3m1!1s0x0:0xfb7d82cd7d6df44a?sa=X&ved=2ahUKEwi2xpS6h43pAhVMIqYKHYt4AR8Q_BIwCnoECBsQCA"
+              target="_blank"
+            >
+              "google map"
+            </a>
+          </div>
+
+          <div id="branch3">
+            <p class="branch-name">PIZZA SLICE COMMISSARY</p>
+            <p class="branck-address">
+              1F, Life Science Bld2., 3-11-5 Nihonbashihonmachi, Chuo, Tokyo
+            </p>
+            <a
+              class="branch-map-link"
+              href="https://www.google.com/maps/place/PIZZA+SLICE+COMMISSARY/@35.689077,139.7773335,15z/data=!4m2!3m1!1s0x0:0xedb0d435cf14ed6?sa=X&ved=2ahUKEwjMhpXdpp7xAhX_w4sBHW8MABAQ_BIwEnoECEgQBQ"
+              target="_blank"
+            >
+              "google map"
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="floating-hamburger-icon">
+        <div id="floating-hamburger-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="70"
+            height="70"
+            viewBox="0 0 70 70"
+            fill="none"
+          >
+            <rect width="70" height="70" fill="#F80605" />
+            <path
+              d="M21.0714 25.5102H48.9286C49.5203 25.5102 50 24.962 50 24.2857V21.2245C50 20.5482 49.5203 20 48.9286 20H21.0714C20.4797 20 20 20.5482 20 21.2245V24.2857C20 24.962 20.4797 25.5102 21.0714 25.5102ZM21.0714 37.7551H48.9286C49.5203 37.7551 50 37.2069 50 36.5306V33.4694C50 32.7931 49.5203 32.2449 48.9286 32.2449H21.0714C20.4797 32.2449 20 32.7931 20 33.4694V36.5306C20 37.2069 20.4797 37.7551 21.0714 37.7551ZM21.0714 50H48.9286C49.5203 50 50 49.4518 50 48.7755V45.7143C50 45.038 49.5203 44.4898 48.9286 44.4898H21.0714C20.4797 44.4898 20 45.038 20 45.7143V48.7755C20 49.4518 20.4797 50 21.0714 50Z"
+              fill="white"
+            />
+            <rect
+              x="0.5"
+              y="0.5"
+              width="69"
+              height="69"
+              stroke="#111111"
+              stroke-opacity="0.0666667"
+            />
+          </svg>
+        </div>
+
+        <div class="invisible" id="floating-navigation-menu">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li></li>
+          </ul>
+          <div class="floating-menu-close-icon" id="floating-menu-close-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M18 6.41L16.59 5 12 9.59 7.41 5 6 6.41 10.59 11 6 15.59 7.41 17 12 12.41 16.59 17 18 15.59 13.41 11 18 6.41z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div id="social-icon-container">
-            <div class="icon-circle">
-                <a href="https://www.instagram.com/pizza_slice_tokyo/?hl=ja"
-                    target="_blank">
-                    <img src="Images/instagram.svg" alt="Instagram Icon">
-                </a>
-            </div>
-            <div class="icon-circle">
-                <a href="https://www.facebook.com/abcpizzaslice?locale=ja_JP"
-                    target="_blank">
-                    <img src="Images/facebook.svg" alt="Facebook Icon">
-                </a>
-            </div>
+      <div id="social-icon-container">
+        <div class="icon-circle">
+          <a
+            href="https://www.instagram.com/pizza_slice_tokyo/?hl=ja"
+            target="_blank"
+          >
+            <img src="Images/instagram.svg" alt="Instagram Icon" />
+          </a>
         </div>
+        <div class="icon-circle">
+          <a
+            href="https://www.facebook.com/abcpizzaslice?locale=ja_JP"
+            target="_blank"
+          >
+            <img src="Images/facebook.svg" alt="Facebook Icon" />
+          </a>
+        </div>
+      </div>
 
-        <div id="copyright-container">
-            <p id="privacy-policy">PRIVACY POLICY</p>
-            <p id="copyright">© 2023 PIZZZA SLICE</p>
-        </div>
+      <div id="copyright-container">
+        <p id="privacy-policy">PRIVACY POLICY</p>
+        <p id="copyright">© 2023 PIZZZA SLICE</p>
+      </div>
     </footer>
 
     <script src="index.js"></script>
