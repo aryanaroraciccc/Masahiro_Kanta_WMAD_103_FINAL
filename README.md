@@ -40,8 +40,8 @@ When I tried to push to remote branch, it failed with this error
 I googled it and hit this website(https://rakeshjain-devops.medium.com/fix-to-tip-of-your-current-branch-is-behind-its-remote-counterpart-git-error-eb75f719c2d5). 
 I was in a kind of rush, so I didn't really read the contents but just tried the command the website suggested.(Terrible mistake)
 <img width="822" alt="Screenshot 2023-07-21 at 12 27 41" src="https://github.com/aryanaroraciccc/Masahiro_Kanta_WMAD_103_FINAL/assets/99339182/aab6e138-3057-474d-b4ae-1e590f763e88">
-Then all of my changes has disappered. I was so upset. 
 
+Then all of my changes has disappered. I was so upset. 
 At the end, I googled the situation again, found this(https://stackoverflow.com/questions/5788037/recover-from-losing-uncommitted-changes-by-git-reset-hard). "git reflog show" and "git reset HEAD{n}" saved my life.
 
 I learned that I have to obviously be careful on my googling process. Also "git reflog show" and "git reset HEAD{n}".
