@@ -32,6 +32,15 @@ As for common parts, such like header or footer, we separate scss files so that 
 ## What you learned and what you struggled the most
 
 Kanta
+ I was about to lose all the commit that I made.
+When I tried to push to remote branch, it failed with this error 
+"! [rejected] feature/menu -> feature/menu (non-fast-forward) error: failed to push some refs to 'https://github.com/aryanaroraciccc/Masahiro_Kanta_WMAD_103_FINAL' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details."
+
+I googled it and hit this website(https://rakeshjain-devops.medium.com/fix-to-tip-of-your-current-branch-is-behind-its-remote-counterpart-git-error-eb75f719c2d5). 
+I was in a kind of rush, so I didn't really read the contents but just tried the command the website suggested.(Terrible mistake)
+<img width="822" alt="Screenshot 2023-07-21 at 12 27 41" src="https://github.com/aryanaroraciccc/Masahiro_Kanta_WMAD_103_FINAL/assets/99339182/aab6e138-3057-474d-b4ae-1e590f763e88">
+Then all of my changes has disappered.
+
 
 Masahiro
 
